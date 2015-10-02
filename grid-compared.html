@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <section class="table-responsive" style="margin-bottom: 3em; margin-top: 1em;">
+        <h2>Grid options in Bootstrap 3</h2>
+        <table class="table table-bordered table-striped">
+          <thead class="thead-inverse">
+            <tr>
+              <th></th>
+              <th>Extra small devices Phones (&lt;768px)</th>
+              <th>Small devices Tablets (&gt;768px)</th>
+              <th>Medium devices Desktops (&gt;992px)</th>
+              <th>Large devices Desktops (&gt;1200px)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Grid behavior</th>
+              <td>Horizontal at all times</td>
+              <td colspan="3">Collapsed to start, horizontal above breakpoints</td>
+            </tr>
+            <tr>
+              <th scope="row">Max container width</th>
+              <td>None (auto)</td>
+              <td>720px</td>
+              <td>940px</td>
+              <td>1140px</td>
+            </tr>
+            <tr>
+              <th scope="row">Class prefix</th>
+              <td><code>.col-xs</code></td>
+              <td><code>.col-sm-</code></td>
+              <td><code>.col-md-</code></td>
+              <td><code>.col-lg-</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="table-responsive">
+        <h2>Grid options in Bootstrap 4</h2>
+        <table class="table table-bordered table-striped">
+          <thead class="thead-inverse">
+            <tr>
+              <th></th>
+              <th>Extra small <small>&lt;34em/544px</small></th>
+              <th>Small <small>≥34em/544px</small></th>
+              <th>Medium <small>≥48em/768px</small></th>
+              <th>Large <small>≥62em/992px</small></th>
+              <th>Extra large <small>≥75em/1200px</small></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="text-nowrap" scope="row">Grid behavior</th>
+              <td>Horizontal at all times</td>
+              <td colspan="4">Collapsed to start, horizontal above breakpoints</td>
+            </tr>
+            <tr>
+              <th class="text-nowrap" scope="row">Container width</th>
+              <td>None (auto)</td>
+              <td>34rem</td>
+              <td>45rem</td>
+              <td>60rem</td>
+              <td>72.25rem</td>
+            </tr>
+            <tr>
+              <th class="text-nowrap" scope="row">Class prefix</th>
+              <td><code>.col-xs-</code></td>
+              <td><code>.col-sm-</code></td>
+              <td><code>.col-md-</code></td>
+              <td><code>.col-lg-</code></td>
+              <td><code>.col-xl-</code></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  </body>
+</html>
